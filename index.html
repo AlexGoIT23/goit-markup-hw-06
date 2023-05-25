@@ -375,6 +375,25 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-box">
+                <p class="footer-title">Subscribe</p>
+                <div>
+                    <label class="footer-mail-box">
+                        <input class="footer-mail" type="email" name="email" placeholder="E-mail" required>
+                    </label>
+                </div>
+            </div>
+            <!-- <div class=""> -->
+            <button type="submit" class="mail-btn">
+
+                <span class="subscribe-text-btn">Subscribe</span>
+                <svg width="18" height="18">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+
+
+            </button>
+            <!-- </div> -->
         </div>
     </footer>
 
@@ -385,8 +404,75 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <h3 class="modal-title">Leave your contacts and we will call you back</h3>
+
+            <form class="modal-list">
+
+
+                <lable class="field-box" bis_skin_checked="1">
+                    <span class="text-field">Name</span>
+                    <span class="input-wrap" bis_skin_checked="1">
+                        <input type="text" name="name" required>
+                        <svg width="18">
+                            <use href="./images/icons.svg#icon-man"></use>
+                        </svg>
+                    </span>
+                </lable>
+
+
+
+                <lable class="field-box" bis_skin_checked="1">
+                    <span class="text-field">Phone</span>
+                    <span class="input-wrap" bis_skin_checked="1">
+                        <input type="tel" name="phone" required>
+                        <svg width="18">
+                            <use href="./images/icons.svg#icon-tel"></use>
+                        </svg>
+                    </span>
+                </lable>
+
+
+
+                <lable class="field-box" bis_skin_checked="1">
+                    <span class="text-field">E-mail</span>
+                    <span class="input-wrap" bis_skin_checked="1">
+                        <input type="email" name="email" required>
+                        <svg width="18">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                    </span>
+                </lable>
+
+                <lable class="field-box" bis_skin_checked="1">
+                    <span class="text-field">Comment</span>
+                    <span class="input-wrap" bis_skin_checked="1">
+                        <textarea class="modal-textarea" name="comment" placeholder="Text input"></textarea>
+                    </span>
+                </lable>
+
+
+                <label class="field-box-checkbox">
+                    <input class="checkbox" type="checkbox" name="checkbox" required>
+                    <svg class="check-custom-box" width="10" height="8">
+                        <use class="check-custom" href="./images/icons.svg#icon-click-blue"></use>
+                    </svg>
+                    <span class="modal-text"> I accept the terms and conditions of the <span class="text-span"><a
+                                href="">Privacy
+                                Policy</a></span></span>
+                </label>
+
+                <button type="submit" class="send-btn">Send</button>
+
+            </form>
+
+
+
         </div>
+
+
     </div>
+
+
     <script src="./js/modal.js"></script>
 </body>
 

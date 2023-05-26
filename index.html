@@ -444,26 +444,25 @@
                 </div>
 
                 <div class="field-box">
-                    <label class="text-field" for="comment">Comment</label>
-                    <div class="input-wrap">
-                        <textarea class="modal-textarea" name="comment" id="comment"
-                            placeholder="Text input"></textarea>
-
-                    </div>
+                    <label class="text-field" for="user-comment">Comment</label>
+                    <textarea class="modal-textarea" name="user-comment" id="user-comment"
+                        placeholder="Text input"></textarea>
                 </div>
 
 
 
 
-                <label class="field-box-checkbox">
-                    <input class="checkbox" type="checkbox" name="checkbox" required>
-                    <svg class="check-custom-box" width="10" height="8">
-                        <use class="check-custom" href="./images/icons.svg#icon-click-blue"></use>
-                    </svg>
-                    <span class="modal-text"> I accept the terms and conditions of the <span class="text-span"><a
-                                href="">Privacy
-                                Policy</a></span></span>
-                </label>
+                <div class="field-box-checkbox">
+                    <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+                        value="true" required>
+                    <label class="modal-text" for="user-privacy">
+                        <span class="check-custom-box"><svg class="check-custom-svg" width="10" height="8">
+                                <use class="check-custom" href="./images/icons.svg#icon-click"></use>
+                            </svg>
+                        </span> I accept the terms and conditions of the
+                        <span><a class="text-span" href="">Privacy Policy</a></span>
+                    </label>
+                </div>
 
                 <button type="submit" class="send-btn">Send</button>
 

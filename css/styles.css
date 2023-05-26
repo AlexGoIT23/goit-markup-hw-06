@@ -781,6 +781,12 @@ img {
   margin-bottom: 8px;
 }
 
+.field-box-cmt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
 /* .field-box:not(:last-child) {
   margin-bottom: 8px;
 } */
@@ -931,7 +937,7 @@ img {
 .field-box-checkbox {
   display: flex;
   align-items: center;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   margin-bottom: 24px;
 }
 
